@@ -1,0 +1,52 @@
+
+@import url("./indexstyle.css");
+@import url("./indexstyle2.css");
+@import url("./indexstyle3.css");
+
+/* responsive design */
+
+@media(min-width: 600px){
+    #h2 {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 300px 810px 300px;
+        grid-template-areas: "col1 col2 col3";
+        border-bottom: darkblue solid 10px;
+    }
+    
+    #span1{
+        grid-area: "col1"; 
+    }
+    
+    #span2{
+        grid-area: "col2";
+        padding-top: 50px;
+    }
+    
+    #span3 {
+        grid-area: "col3";
+        padding-top: 50px;
+    }
+
+    .superbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form{
+        grid-template-columns: 300px;
+    }
+     
+    .section{
+        width:600px;
+    }
+
+    .container{
+        width:300px;
+    }
+
+    header, nav, h3{
+        width: auto;
+    }
+}
