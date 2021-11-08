@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Home Page</title>
-        <link href="./responsivestyle.css" type="text/css" rel="stylesheet"/>
+        <link href="./css/responsivestyle.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <header>
@@ -34,7 +34,7 @@
                         <h3 class="author">Date: Nov. 6, 2021 by Jason Kincaid the Student</h3>
                         <h4 class="title">Lorem Ipsum Dolor</h4>
                         <p class="blog">
-                            Lorem ipsum dolor sit amet,
+                            <b>Lorem ipsum dolor</b> sit amet,
                             consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam,
@@ -44,7 +44,8 @@
                             sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                         <p class="blog">
-                            Tempus urna et pharetra pharetra massa. Elit scelerisque mauris pellentesque pulvinar pellentesque.
+                            <u>Tempus urna et pharetra pharetra massa</u>. 
+                            Elit scelerisque mauris pellentesque pulvinar pellentesque.
                             Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget.
                             Sed velit dignissim sodales ut eu sem.
                             Et leo duis ut diam quam nulla porttitor.
@@ -58,26 +59,28 @@
                             Mauris vitae ultricies leo integer malesuada nunc vel risus.
                             Scelerisque fermentum dui faucibus in.
                         </p>
-                        <p><a href="./blogpost.html">Click here</a> to continue reading this blog.</p>
+                        <p><a href="./pages/blogpost.html">Click here</a> to continue reading this blog.</p>
                     </div>
                     <div class="setblog">
                         <h3 class="author">Date: Nov. 5, 2021 by Jose Suarez the Engineer</h3>
                         <h4 class="title">Auctor Neque Vitae</h4>
                         <p class="blog">
-                            Auctor neque vitae tempus quam pellentesque nec nam aliquam.
+                            <b>Auctor neque vitae</b> tempus quam pellentesque nec nam aliquam.
                             Consequat mauris nunc congue nisi vitae suscipit.
                             Morbi non arcu risus quis.
                             Sed pulvinar proin gravida hendrerit.
                             Lectus proin nibh nisl condimentum id venenatis a.
                             Nulla porttitor massa id neque aliquam vestibulum morbi.
-                            Imperdiet proin fermentum leo vel orci.
-                            A condimentum vitae sapien pellentesque habitant morbi tristique senectus et.
-                            Lectus sit amet est placerat.
-                            Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.
-                            Lectus arcu bibendum at varius vel.
-                            Id aliquet lectus proin nibh.
-                            In ornare quam viverra orci sagittis eu volutpat.
-                            Sapien faucibus et molestie ac feugiat sed lectus.
+                            <em>Imperdiet proin fermentum</em> leo vel orci:
+                            <blockquote cite="https://loremipsum.io">
+                                A condimentum vitae sapien pellentesque habitant morbi tristique senectus et.
+                                Lectus sit amet est placerat.
+                                Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.
+                                Lectus arcu bibendum at varius vel.
+                                Id aliquet lectus proin nibh.
+                                In ornare quam viverra orci sagittis eu volutpat.
+                                Sapien faucibus et molestie ac feugiat sed lectus.
+                            </blockquote>
                         </p>
                         <p class="blog">
                             Dui id ornare arcu odio ut.
@@ -91,21 +94,31 @@
                             Hac habitasse platea dictumst quisque.
                             Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper.
                         </p>
-                        <p><a href="./blogpost2.html">Click here</a> to continue reading this blog.</p>
+                        <p><a href="./pages/blogpost2.html">Click here</a> to continue reading this blog.</p>
                     </div>
                 </section>
                 <aside>
                     <div class="container" id="entercategories">
                         <div class="box" id="one">Travels and Adventures</div>
-                        <div class="pic" id="six"></div>
+                        <div class="pic" id="six">
+                            <figcaption class="caption1">Fig. 1 - Beach</figcaption>
+                        </div>
                         <div class="box" id="two">Literature and Art</div>
-                        <div class="pic" id="seven"></div>
+                        <div class="pic" id="seven">
+                            <figcaption class="caption1">Fig. 2 - Books</figcaption>
+                        </div>
                         <div class="box" id="three">Gardening and Orchids</div>
-                        <div class="pic" id="eight"></div>
+                        <div class="pic" id="eight">
+                            <figcaption class="caption2">Fig. 3 - Garden</figcaption>
+                        </div>
                         <div class="box" id="four">Photography and Beauty</div>
-                        <div class="pic" id="nine"></div>
+                        <div class="pic" id="nine">
+                            <figcaption class="caption2">Fig. 4 - Camera</figcaption>
+                        </div>
                         <div class="box" id="five">Geneology and Family Tree</div>
-                        <div class="pic" id="ten"></div>
+                        <div class="pic" id="ten">
+                            <figcaption class="caption2">Fig. 5 - Document</figcaption>
+                        </div>
                     </div>
                 </aside>
             </article>

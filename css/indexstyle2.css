@@ -77,6 +77,18 @@ label {
     z-index: -2;
 }
 
+.caption1 {
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.caption2 {
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+}
+
 #credits {
     text-decoration: underline;
 }

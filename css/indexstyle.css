@@ -39,28 +39,28 @@
 
 #six {
     grid-area: 1;
-    background-image: url("./images/beach.jpeg");
+    background-image: url("../images/beach.jpeg");
    
 }
 
 #seven {
     grid-area: 3;
-    background-image: url("./images/books.jpeg");
+    background-image: url("../images/books.jpeg");
 }
 
 #eight {
     grid-area: 5;
-    background-image: url("./images/garden.jpeg");
+    background-image: url("../images/garden.jpeg");
 }
 
 #nine {
     grid-area: 7;
-    background-image: url("./images/camera.jpeg");
+    background-image: url("../images/camera.jpeg");
 }
 
 #ten {
     grid-area: 9;
-    background-image: url("./images/genealogy.jpeg");
+    background-image: url("../images/genealogy.jpeg");
 }
 
 
