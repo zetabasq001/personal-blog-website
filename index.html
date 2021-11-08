@@ -2,30 +2,119 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Blog Page Website</title>
-        <link href="./indexstyle.css" type="text/css" rel="stylesheet"/>
+        <title>Home Page</title>
+        <link href="./responsivestyle.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <header>
-            <h1>Blog Home Page</h1>   
-        </header>     
+            <h1>Submit a Blog Home Page</h1>
+        </header>   
         <nav>
-            <a href="./blogpost.html">View blog posts</a>
+            <h2 id="h2">
+                <span id="span1"><img src="./images/avatar.jpeg" alt="avatar"/>Tell us about yourself:</span>
+                <span id="span2"><a href="#enterblog">Most Recent Blogs:</a></span>
+                <span id="span3"><a href="#entercategories">Categories of Topics:</a></span>
+            </h2>
         </nav>  
         <main>
-            <article>
-                <h2>Submit a blog post on any topic such as</h2>
-                <ul>
-                    <li>Travel and Adventures through Europe</li>
-                    <li>Books on Literature and Art</li>
-                    <li>Hobbies on Gardening</li>
-                    <li>Photography Documenting your Adventures</li>
-                    <li>Your Unique Geneology and Family Tree</li>
-                </ul>
-
-                <a href="./blogpost.html">Enter your blog post here</a>
-
-            </article>
+            <article class="superbox">
+                <form class="form">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="vocation">Current Company/School:</label>
+                    <input type="text" id="vocation" name="vocation">
+                    <label for="bio">Short Bio:</label>
+                    <textarea id="bio" name="bio"></textarea>
+                    <button type="button">Submit</button>
+                </form>
+                <section class="section">
+                    <div class="div" id="enterblog">
+                        <h3 class="author">Date: Nov. 6, 2021 by Jason Kincaid the Student</h3>
+                        <h4 class="title">Lorem Ipsum Dolor</h4>
+                        <p class="blog">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, 
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="blog">
+                            Tempus urna et pharetra pharetra massa. Elit scelerisque mauris pellentesque pulvinar pellentesque. 
+                            Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. 
+                            Sed velit dignissim sodales ut eu sem. 
+                            Et leo duis ut diam quam nulla porttitor. 
+                            Cras semper auctor neque vitae tempus quam pellentesque. 
+                            Eget nulla facilisi etiam dignissim diam. 
+                            Aenean euismod elementum nisi quis eleifend quam. 
+                            Duis ut diam quam nulla porttitor. 
+                            Sagittis vitae et leo duis. 
+                            Sed faucibus turpis in eu. 
+                            Purus semper eget duis at tellus at urna condimentum mattis. 
+                            Mauris vitae ultricies leo integer malesuada nunc vel risus. 
+                            Scelerisque fermentum dui faucibus in. 
+                        </p>
+                        <p><a href="./blogpost.html">Click here</a> to continue reading this blog.</p> 
+                    </div>
+                    <div class="div">    
+                        <h3 class="author">Date: Nov. 5, 2021 by Jose Suarez the Engineer</h3>
+                        <h4 class="title">Auctor Neque Vitae</h4>
+                        <p class="blog">
+                            Auctor neque vitae tempus quam pellentesque nec nam aliquam. 
+                            Consequat mauris nunc congue nisi vitae suscipit. 
+                            Morbi non arcu risus quis. 
+                            Sed pulvinar proin gravida hendrerit. 
+                            Lectus proin nibh nisl condimentum id venenatis a. 
+                            Nulla porttitor massa id neque aliquam vestibulum morbi. 
+                            Imperdiet proin fermentum leo vel orci. 
+                            A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. 
+                            Lectus sit amet est placerat. 
+                            Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. 
+                            Lectus arcu bibendum at varius vel. 
+                            Id aliquet lectus proin nibh. 
+                            In ornare quam viverra orci sagittis eu volutpat. 
+                            Sapien faucibus et molestie ac feugiat sed lectus.
+                        </p>
+                        <p class="blog">
+                            Dui id ornare arcu odio ut. 
+                            At tempor commodo ullamcorper a lacus vestibulum sed arcu non. 
+                            Volutpat commodo sed egestas egestas fringilla phasellus. 
+                            Est sit amet facilisis magna etiam tempor. 
+                            Convallis convallis tellus id interdum. 
+                            Tristique nulla aliquet enim tortor at auctor urna nunc id. 
+                            Sem fringilla ut morbi tincidunt augue. 
+                            Ac tincidunt vitae semper quis lectus nulla. 
+                            Hac habitasse platea dictumst quisque. 
+                            Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper.
+                        </p>
+                        <p><a href="./blogpost2.html">Click here</a> to continue reading this blog.</p>
+                    </div>       
+                </section>
+                <aside>
+                    <div class="container" id="entercategories">
+                        <div class="box" id="one">Travels and Adventures</div>
+                        <div class="pic" id="six"></div>
+                        <div class="box" id="two">Literature and Art</div>
+                        <div class="pic" id="seven"></div>
+                        <div class="box" id="three">Gardening and Orchids</div>
+                        <div class="pic" id="eight"></div>
+                        <div class="box" id="four">Photography and Beauty</div>
+                        <div class="pic" id="nine"></div>
+                        <div class="box" id="five">Geneology and Family Tree</div>
+                        <div class="pic" id="ten"></div>
+                    </div>
+                </aside>
+            </article>      
         </main> 
+        <footer>
+            <p id="footer">
+                Credits to tripsavvy.com, neh.gov, huffingtonpost.co.uk, cantonart.org, and wbur.org 
+                for their images. Images were used for educational purposes and not commerical use.
+            </p>
+        </footer>
     </body>
 </html>
