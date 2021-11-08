@@ -5,11 +5,11 @@
 
 /* responsive design */
 
-@media(min-width: 600px){
-    #h2 {
+@media(min-width: 900px){
+    #bar {
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: 300px 810px 300px;
+        grid-template-columns: 300px 1fr 300px;
         grid-template-areas: "col1 col2 col3";
         border-bottom: darkblue solid 10px;
     }
