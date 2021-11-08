@@ -1,0 +1,82 @@
+
+/* colors, text style, font family, and padding */
+
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    width: 250px;
+    padding-top: 50px;
+    margin: auto;  
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: darkblue solid 10px;
+}
+
+h2{
+    width: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    text-align: left;
+    width: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.author{
+    text-align: left;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+label{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.section{
+    text-align: left;
+}
+
+.div {
+    border-bottom: beige solid 5px;
+}
+
+.blog {
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+ 
+.box {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration: underline;
+    border: orange dotted 10px;
+    border-radius: 50px;
+    z-index: 2;
+    height: 60px;
+}
+
+.pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid 5px;
+    border-radius: 10px;
+    height: 125px;
+    z-index: -2;
+}
+
+#footer {
+    text-decoration: underline;
+}
