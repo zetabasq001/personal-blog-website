@@ -6,7 +6,7 @@
 /* responsive design */
 
 @media(min-width: 900px){
-    #bar {
+    #navbar {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 300px 1fr 300px;
@@ -14,39 +14,39 @@
         border-bottom: darkblue solid 10px;
     }
     
-    #span1{
+    #navbar1 {
         grid-area: "col1"; 
     }
     
-    #span2{
+    #navbar2 {
         grid-area: "col2";
         padding-top: 50px;
     }
     
-    #span3 {
+    #navbar3 {
         grid-area: "col3";
         padding-top: 50px;
     }
 
-    .superbox{
+    .superbox {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .form{
+    .form {
         grid-template-columns: 300px;
     }
      
-    .section{
+    .blogger {
         width:600px;
     }
 
-    .container{
+    .container {
         width:300px;
     }
 
-    header, nav, h3{
+    header, nav, h3 {
         width: auto;
     }
 }

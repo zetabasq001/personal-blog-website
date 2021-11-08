@@ -14,7 +14,7 @@ h1 {
     border-bottom: darkblue solid 10px;
 }
 
-h2{
+h2 {
     text-align: start;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -25,7 +25,7 @@ h3 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.author{
+.author {
     text-align: left;
 }
 
@@ -35,16 +35,16 @@ h3 {
     font-size: 24px;
 }
 
-label{
+label {
     text-align: left;
     text-decoration: underline;
 }
 
-.section{
+.blogger {
     text-align: left;
 }
 
-.div {
+.setblog {
     border-bottom: beige solid 5px;
 }
 
@@ -77,6 +77,6 @@ label{
     z-index: -2;
 }
 
-#footer {
+#credits {
     text-decoration: underline;
 }
