@@ -3,63 +3,53 @@
 
 .container {
     display: grid;
+    justify-content: center;
     grid-template-columns: 300px;
-    grid-template-rows: repeat(10, 100px);
+    grid-template-rows: repeat(5, 210px);
     grid-template-areas: "1"
                         "2"
                         "3"
                         "4"
-                        "5"
-                        "6"
-                        "7"
-                        "8"
-                        "9"
-                        "10"; 
+                        "5";
 }
 
-#one {
-    grid-area: 2;  
+#boxpic1 {
+    grid-area: 1;
 }
 
-#two {
+#boxpic2 {
+    grid-area: 2;
+}
+
+#boxpic3 {
+    grid-area: 3;
+}
+
+#boxpic4 {
     grid-area: 4;
 }
 
-#three {
-    grid-area: 6;
-}
-
-#four {
-    grid-area: 8;
-}
-
-#five {
-    grid-area: 10;
+#boxpic5 {
+    grid-area: 5;
 }
 
 #six {
-    grid-area: 1;
-    background-image: url("../images/beach.jpeg");
-   
+    background-image: url("../images/beach.jpeg");  
 }
 
 #seven {
-    grid-area: 3;
     background-image: url("../images/books.jpeg");
 }
 
 #eight {
-    grid-area: 5;
     background-image: url("../images/garden.jpeg");
 }
 
 #nine {
-    grid-area: 7;
     background-image: url("../images/camera.jpeg");
 }
 
 #ten {
-    grid-area: 9;
     background-image: url("../images/genealogy.jpeg");
 }
 

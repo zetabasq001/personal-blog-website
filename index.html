@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial=scale=1.0" charset="utf-8"/>
         <title>Home Page</title>
         <link href="./css/responsivestyle.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <header>
-            <h1>Submit a Blog Home Page</h1>
+            <h1>COMPOSE<br/> A BLOG<br/> HOME PAGE</h1>
         </header>
         <nav>
             <h2 id="navbar">
                 <span id="navbar1"><img src="./images/avatar.jpeg" alt="avatar"/>Tell us about yourself:</span>
-                <span id="navbar2"><a href="#enterblog">Most Recent Blogs:</a></span>
+                <span id="navbar2"><a href="#enterblog1">Most Recent Blogs:</a></span>
                 <span id="navbar3"><a href="#entercategories">Categories of Topics:</a></span>
             </h2>
         </nav>
@@ -30,8 +30,8 @@
                     <button type="button">Submit</button>
                 </form>
                 <section class="blogger">
-                    <div class="setblog" id="enterblog">
-                        <h3 class="author">Date: Nov. 6, 2021 by Jason Kincaid the Student</h3>
+                    <div class="setblog" id="enterblog1">
+                        <h3 class="author">Date: Nov. 6, 2021 by Jason Kincaid The Student</h3>
                         <h4 class="title">Lorem Ipsum Dolor</h4>
                         <p class="blog">
                             <b>Lorem ipsum dolor</b> sit amet,
@@ -61,8 +61,8 @@
                         </p>
                         <p><a href="./pages/blogpost.html">Click here</a> to continue reading this blog.</p>
                     </div>
-                    <div class="setblog">
-                        <h3 class="author">Date: Nov. 5, 2021 by Jose Suarez the Engineer</h3>
+                    <div class="setblog" id="enterblog2">
+                        <h3 class="author">Date: Nov. 5, 2021 by Jose Suarez The Engineer</h3>
                         <h4 class="title">Auctor Neque Vitae</h4>
                         <p class="blog">
                             <b>Auctor neque vitae</b> tempus quam pellentesque nec nam aliquam.
@@ -72,7 +72,7 @@
                             Lectus proin nibh nisl condimentum id venenatis a.
                             Nulla porttitor massa id neque aliquam vestibulum morbi.
                             <em>Imperdiet proin fermentum</em> leo vel orci:
-                            <blockquote cite="https://loremipsum.io">
+                            <blockquote class="quote" cite="https://loremipsum.io">
                                 A condimentum vitae sapien pellentesque habitant morbi tristique senectus et.
                                 Lectus sit amet est placerat.
                                 Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus.
@@ -99,26 +99,31 @@
                 </section>
                 <aside>
                     <div class="container" id="entercategories">
-                        <div class="box" id="one">Travels and Adventures</div>
-                        <div class="pic" id="six">
-                            <figcaption class="caption1">Fig. 1 - Beach</figcaption>
-                        </div>
-                        <div class="box" id="two">Literature and Art</div>
-                        <div class="pic" id="seven">
-                            <figcaption class="caption1">Fig. 2 - Books</figcaption>
-                        </div>
-                        <div class="box" id="three">Gardening and Orchids</div>
-                        <div class="pic" id="eight">
-                            <figcaption class="caption2">Fig. 3 - Garden</figcaption>
-                        </div>
-                        <div class="box" id="four">Photography and Beauty</div>
-                        <div class="pic" id="nine">
-                            <figcaption class="caption2">Fig. 4 - Camera</figcaption>
-                        </div>
-                        <div class="box" id="five">Geneology and Family Tree</div>
-                        <div class="pic" id="ten">
-                            <figcaption class="caption2">Fig. 5 - Document</figcaption>
-                        </div>
+                        <figure id="boxpic1">
+                            <div class="box">Travels and Adventures</div>
+                            <div class="pic" id="six"></div>
+                            <figcaption class="caption">Fig. 1 - Beach</figcaption>                     
+                        </figure>
+                        <figure id="boxpic2">
+                            <div class="box">Literature and Art</div>
+                            <div class="pic" id="seven"> </div>
+                            <figcaption class="caption">Fig. 2 - Books</figcaption>
+                        </figure>
+                        <figure id="boxpic3">
+                            <div class="box">Gardening and Orchids</div>
+                            <div class="pic" id="eight"></div>
+                            <figcaption class="caption">Fig. 3 - Garden</figcaption>
+                        </figure>
+                        <figure id="boxpic4">
+                            <div class="box">Photography and Beauty</div>
+                            <div class="pic" id="nine"></div>
+                            <figcaption class="caption">Fig. 4 - Camera</figcaption>
+                        </figure>
+                        <figure id="boxpic5">
+                            <div class="box">Geneology</div>
+                            <div class="pic" id="ten"></div>
+                            <figcaption class="caption">Fig. 5 - Document</figcaption>
+                        </figure>
                     </div>
                 </aside>
             </article>

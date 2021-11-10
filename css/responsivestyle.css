@@ -5,13 +5,15 @@
 
 /* responsive design */
 
-@media(min-width: 900px){
+@media(min-width: 815px) {
+
     #navbar {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 300px 1fr 300px;
         grid-template-areas: "col1 col2 col3";
-        border-bottom: darkblue solid 10px;
+        border-bottom: darkslategrey solid 20px;
+        margin-bottom: 0%;
     }
     
     #navbar1 {
@@ -28,6 +30,29 @@
         padding-top: 50px;
     }
 
+
+}
+
+@media(min-width: 635px) and (max-width: 1224px) {
+
+    .form {
+        grid-template-columns: 600px;
+        border-bottom: beige solid 5px;
+        padding-bottom: 10px;
+    }
+
+    .blogger {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        grid-template-columns: 600px;
+    }
+}
+
+
+@media(min-width: 1225px) {
+
     .superbox {
         display: flex;
         flex-direction: row;
@@ -36,14 +61,31 @@
 
     .form {
         grid-template-columns: 300px;
+        height: 275px;
+        border-bottom: beige solid 5px;
+        padding-right: 10px;
+        border-right: beige dashed 5px;
     }
      
     .blogger {
-        width:600px;
+        grid-template-columns: 600px;
+    }
+
+    #enterblog1 {
+        padding-right: 10px;
+        border-right: darkslategrey dashed 5px;
+    }
+
+    #enterblog2 {
+        border-left: darkslategrey dashed 5px;
+        padding-left: 10px;
+        border-bottom: none;
     }
 
     .container {
-        width:300px;
+        border-top: beige solid 10px;
+        border-left: beige dashed 5px;
+        grid-template-columns: 300px;
     }
 
     header, nav, h3 {
